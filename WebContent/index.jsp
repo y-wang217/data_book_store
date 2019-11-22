@@ -9,7 +9,7 @@
 <body>
 
 
-	<form action="/Bookstore_WEb/app">
+	<form action="/Bookstore_Web/app">
 		<div>
 			<label for="name">Stuff</label> <input name="name" id="name"
 				value="Debra">

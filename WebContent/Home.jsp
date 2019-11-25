@@ -16,6 +16,7 @@
   <div>
     <button>Send</button>
   </div>
+</form>
 
 </body>
 </html>

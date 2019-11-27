@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>Catalogue</title>
+ <title>Login</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" media="screen">
@@ -15,18 +15,22 @@
  </head>
 <body>
 <header>
-Bookstore
-<div class="custom-padding">
-  <nav>
-    <ul class="menu-area">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Sensei Yale's Collection of Goodies</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="index.jsp">Home</a></li>
       <li><a href="login.jsp" class="active-page">Login</a></li>
+      <li><a href="register.jsp">Register</a></li>
       <li><a href="catalogue.jsp">Catalogue</a></li>
       <li><a href="#">Sales</a></li>
       <li><a href="#">Contact</a></li>
-      <li><a href="orders.jsp">Cart</a></li>
+      <li><a href="orders.jsp">Cart</a></li>   
     </ul>
-  </nav>
-</div>
+  </div>
+</nav>
 
 </header>
 	

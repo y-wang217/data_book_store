@@ -35,4 +35,13 @@
 		<servlet-name>RegisterServlet</servlet-name>
 		<url-pattern>/register</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>CatServlet</servlet-name>
+		<servlet-class>catalogue</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CatServlet</servlet-name>
+		<url-pattern>/pull_catalogue</url-pattern>
+	</servlet-mapping>
+	
 </web-app>

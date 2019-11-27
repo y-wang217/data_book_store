@@ -22,7 +22,7 @@ public class RegisterServlet extends HttpServlet {
 		
 
 		RegisterController ctl = new RegisterController();
-		ctl.
+		ctl.register(username,pass,pass_conf);
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

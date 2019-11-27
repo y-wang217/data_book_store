@@ -13,10 +13,10 @@ import model.Employee;
 public class ExampleDaoImpl implements ExampleDAO {
 
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-	static final String DB_URL = "jdbc:mysql://localhost:3306/Book_Store";
+	static final String DB_URL = "jdbc:mysql://localhost:3306/bookstore/";
 
 	static final String USER = "root";
-	static final String PASS = "pass";
+	static final String PASS = "75135531ER";
 	
 	public String retrieve(String query, Employee emp) {
 		return retrieve(query + emp.getEmp_name());
@@ -31,7 +31,7 @@ public class ExampleDaoImpl implements ExampleDAO {
 			Statement stmt = conn.createStatement();
 
 			ResultSet rs = stmt.executeQuery(query);
-
+			
 			while (rs.next()) {
 				// Retrieve by column name
 				int id = rs.getInt("emp_id");

@@ -18,6 +18,14 @@
 	</servlet-mapping>
 	
 	<servlet>
+		<servlet-name>OrdersServlet</servlet-name>
+		<servlet-class>controller.OrdersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrdersServlet</servlet-name>
+		<url-pattern>/orders</url-pattern>
+	<servlet>
+	
 		<servlet-name>RegisterServlet</servlet-name>
 		<servlet-class>servlets.RegisterServlet</servlet-class>
 	</servlet>

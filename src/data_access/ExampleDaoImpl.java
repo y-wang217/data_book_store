@@ -13,10 +13,10 @@ import model.Employee;
 public class ExampleDaoImpl implements ExampleDAO {
 
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-	static final String DB_URL = "jdbc:mysql://localhost:3306/bookstore/";
+	static final String DB_URL = "jdbc:mysql://ec2-18-222-150-59.us-east-2.compute.amazonaws.com:3306/Book_Store";
 
-	static final String USER = "root";
-	static final String PASS = "75135531ER";
+	static final String USER = "user";
+	static final String PASS = "pass";
 	
 	public String retrieve(String query, Employee emp) {
 		return retrieve(query + emp.getEmp_name());
@@ -53,7 +53,7 @@ public class ExampleDaoImpl implements ExampleDAO {
 	
 	public static void main(String[] argv) {
 		ExampleDaoImpl e = new ExampleDaoImpl();
-		e.retrieve("Select * from employees;");
+		e.retrieve("Select * from Employees;");
 		
 	}
 }

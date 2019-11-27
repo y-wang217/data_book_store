@@ -18,6 +18,13 @@ public class ExampleDaoImpl implements ExampleDAO {
 	static final String USER = "user";
 	static final String PASS = "pass";
 	
+	public static void printUpdateStatus(int res, String query) {
+		if(res==1) {
+			System.out.println("update success: " + query);
+		}else {
+			System.out.println("update fail: " + query);
+		}
+	}
 	public String retrieve(String query, Employee emp) {
 		return retrieve(query + emp.getEmp_name());
 	}

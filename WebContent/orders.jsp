@@ -26,7 +26,7 @@
       <li><a href="login.jsp">Login</a></li>
       <li><a href="register.jsp">Register</a></li>
       <li><a href="catalogue.jsp">Catalogue</a></li>
-      <li><a href="#">Sales</a></li>
+      <li><a href="Sales.jsp">Sales</a></li>
       <li><a href="#">Contact</a></li>
       <li><a href="orders.jsp" class="active-page">Cart</a></li>   
     </ul>

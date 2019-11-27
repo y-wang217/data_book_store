@@ -10,10 +10,19 @@
 
 	<servlet>
 		<servlet-name>ExampleServlet</servlet-name>
-		<servlet-class>controller.ExampleServlet</servlet-class>
+		<servlet-class>servlets.ExampleServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ExampleServlet</servlet-name>
 		<url-pattern>/app</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>servlets.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/register</url-pattern>
 	</servlet-mapping>
 </web-app>

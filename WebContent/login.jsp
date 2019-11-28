@@ -6,48 +6,98 @@
  <title>Login</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="/bootstrap-4.3.1-dist/css/bootstrap.css" media="screen">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/web.css" media="screen">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/web.css">
  </head>
+ 
 <body>
 <header>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand">Sensei Yale's Collection of Goodies</a>
-    </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="index.jsp">Home</a></li>
-      <li><a href="login.jsp" class="active-page">Login</a></li>
-      <li><a href="register.jsp">Register</a></li>
-      <li><a href="catalogue.jsp">Catalogue</a></li>
-      <li><a href="Sales.jsp">Sales</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="orders.jsp">Cart</a></li>   
-    </ul>
-  </div>
-</nav>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+	  <a class="navbar-brand">Sensei Yale's Collection of Goodies</a>
+	  
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	    
+	   	  <li class="nav-item">
+	        <a class="nav-link" href="index.jsp">Home</a>
+	      </li>
+	      
+	      <li class="nav-item active">
+	      	<a class="nav-link" href="login.jsp">Login
+      			<span class="sr-only">(current)</span>
+	      	</a>
+	      </li>
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" href="register.jsp">Register</a>
+	      </li>
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" href="catalogue.jsp">Catalogue</a>
+	      </li>
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" href="Sales.jsp">Sales</a>
+	      </li>
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" href="orders.jsp">Cart</a>
+	      </li>
+	    </ul>
 
+	  </div>
+	</nav>
 </header>
-	<div class = "container-fluid">
-		<h2>Login</h2>
-		<form action = "">
-			<label for="uname"><b>Username</b></label>
-			<input type="text" placeholder="Enter Username" name="uname" required>
-			
-			<label for="psw"><b>Password</b></label>
-			<input type="password" placeholder="Enter Password" name="psw" required>
-			
-			<button type="submit">Login</button>
-			<label> <input type="checkbox" checked="checked" name="remember"> Remember me </label>
-		</form>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
+				<form class="login100-form validate-form flex-sb flex-w">
+					<span class="login100-form-title p-b-32">
+						Account Login
+					</span>
 
-			<button onclick="window.location.href = '/Bookstore_Web/register.jsp';">Click Here</button>
+					<span class="txt1 p-b-11">
+						Username
+					</span>
+					<div class="wrap-input100 validate-input m-b-36" data-validate = "Username is required">
+						<input class="input100" type="text" placeholder="Enter Username" name="uname" required>
+						<span class="focus-input100"></span>
+					</div>
+					
+					<span class="txt1 p-b-11">
+						Password
+					</span>
+					<div class="wrap-input100 validate-input m-b-12" data-validate = "Password is required">
+						<span class="btn-show-pass">
+						</span>
+						<input class ="input100" type="password" placeholder="Enter Password" name="psw" required>
+						<span class="focus-input100"></span>
+					</div>
+					
+					<div class="flex-sb-m w-full p-b-48">
+						<div class="contact100-form-checkbox">
+							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+							<label class="label-checkbox100" for="ckb1">
+								Remember me
+							</label>
+						</div>
+
+						<div>
+							<a href="register.jsp" class="txt3">
+								Forgot Password?
+							</a>
+						</div>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
+
+				</form>
+			</div>
+		</div>
 	</div>
-
 </body>
 </html>

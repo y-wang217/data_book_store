@@ -6,32 +6,48 @@
  <title>Orders</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="/bootstrap-4.3.1-dist/css/bootstrap.css" media="screen">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/web.css" media="screen">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/web.css">
  </head>
 <body>
 <header>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand">Sensei Yale's Collection of Goodies</a>
-    </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="index.jsp">Home</a></li>
-      <li><a href="login.jsp">Login</a></li>
-      <li><a href="register.jsp">Register</a></li>
-      <li><a href="catalogue.jsp">Catalogue</a></li>
-      <li><a href="Sales.jsp">Sales</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="orders.jsp" class="active-page">Cart</a></li>   
-    </ul>
-  </div>
-</nav>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+	  <a class="navbar-brand">Sensei Yale's Collection of Goodies</a>
+	  
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	    
+	   	  <li class="nav-item">
+	        <a class="nav-link" href="index.jsp">Home</a>
+	      </li>
+	      
+	      <li class="nav-item">
+	      	<a class="nav-link" href="login.jsp">Login
+	      	</a>
+	      </li>
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" href="register.jsp">Register</a>
+	      </li>
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" href="catalogue.jsp">Catalogue</a>
+	      </li>
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" href="Sales.jsp">Sales</a>
+	      </li>
+	      
+	      <li class="nav-item active">
+	        <a class="nav-link" href="orders.jsp">Cart</a>
+	      		<span class="sr-only">(current)</span>
+	      </li>
+	    </ul>
+
+	  </div>
+	</nav>
 </header>
 	<form action = "/Bookstore_Web/orders">
 		<div>

@@ -53,6 +53,137 @@
 <section id="books">
 
 	<div class="row">
+		
+		<div class="col-lg-3 col-md-6">
+		<div class="card">
+			<div class="card-body">
+			<img src="img/img5.jpg" class="card-img-top" alt="...">
+				<h5 class="card-title"><b>GUTS</b></h5>
+				<p class="card-text">By: Raina Tegemeier</p>
+				<p class="card-text">$11.71</p>		
+
+			<div class="d-flwx flex-row justify-content-center">
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="col-lg-3 col-md-6">
+		<div class="card">
+			<div class="card-body">
+			<img src="img/img6.jpg" class="card-img-top" alt="...">
+				<h5 class="card-title"><b>THE INSTITUTE: A NOVEL</b></h5>
+				<p class="card-text">By: Stephen King</p>
+				<p class="card-text">$19.99</p>
+
+		<div class="d-flwx flex-row">
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="col-lg-3 col-md-6">
+		<div class="card">
+			<div class="card-body">
+			<img src="img/img7.jpg" class="card-img-top" alt="...">
+				<h5 class="card-title"><b>A SPARK OF LIGHT: A NOVEL</b></h5>
+				<p class="card-text">By: Jodi Picoult</p>
+				<p class="card-text">$12.66</p>
+
+		<div class="d-flwx flex-row justify-content-center">
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="col-lg-3 col-md-6">
+		<div class="card">
+			<div class="card-body">
+			<img src="img/img8.jpg" class="card-img-top" alt="...">
+				<h5 class="card-title"><b>THE FAMILY UPSTAIRS: A NOVEL</b></h5>
+				<p class="card-text">By: Lisa Jewell</p>
+						<p class="card-text">$14.21</p>
+
+			<div class="d-flwx flex-row justify-content-center">
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="col-lg-3 col-md-6">
+		<div class="card">
+			<div class="card-body">
+			<img src="img/img10.jpg" class="card-img-top" alt="...">
+				<h5 class="card-title"><b>THE GUARDIANS: A NOVEL</b></h5>
+				<p class="card-text">By: John Grisham</p>
+				<p class="card-text">$19.50</p>
+			<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<div class="d-flwx flex-row justify-content-center">
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="col-lg-3 col-md-6">
+		<div class="card">
+			<div class="card-body">
+			<img src="img/img11.jpg" class="card-img-top" alt="...">
+				<h5 class="card-title"><b>THE CHRISTMAS PARTY</b></h5>
+				<p class="card-text">By: Karen Swan</p>
+				<p class="card-text">$12.49</p>		
+			<span class="fa fa-star" checked></span>
+			<span class="fa fa-star" checked></span>
+			<span class="fa fa-star" checked></span>
+			<span class="fa fa-star" checked></span>
+			<span class="fa fa-star"></span>
+			<div class="d-flwx flex-row justify-content-center">
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		<div class="col-lg-3 col-md-6">
+		<div class="card">
+			<div class="card-body">
+			<img src="img/img12.jpg" class="card-img-top" alt="...">
+				<h5 class="card-title"><b>THE BODY: A GUIDE FOR OCCUPANTS</b></h5>	
+			<p class="card-text">By: Bill Bryson</p>
+				<p class="card-text">$19.00</p>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+			<div class="d-flwx flex-row justify-content-center">
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		
 		<div class="col-lg-3 col-md-6">
 		<div class="card">
 			<div class="card-body">
@@ -67,8 +198,8 @@
 		<span class="fa fa-star checked"></span>
 		<span class="fa fa-star"></span>
 		<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4" >
-			<a href="#" class="btn btn-primary">Add to Cart</a>
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
 			</div>
 			</div>
 			</div>
@@ -88,8 +219,8 @@
 				<span class="fa fa-star checked"></span>
 				<span class="fa fa-star checked"></span>
 				<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
 			</div>
 			</div>
 			</div>
@@ -109,8 +240,8 @@
 			<span class="fa fa-star checked"></span>
 			<span class="fa fa-star checked"></span>
 			<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
 			</div>
 			</div>
 			</div>
@@ -130,8 +261,8 @@
 			<span class="fa fa-star "></span>
 			<span class="fa fa-star "></span>
 			<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
 			</div>
 			</div>
 			</div>
@@ -139,171 +270,6 @@
 		</div>
 		
 		<div class="col-lg-3 col-md-6">
-		<div class="card">
-			<div class="card-body">
-			<img src="img/img5.jpg" class="card-img-top" alt="...">
-				<h5 class="card-title"><b>Guts</b></h5>
-				<p class="card-text">By: Raina Tegemeier</p>
-				<p class="card-text">$11.71</p>		
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-			<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
-			</div>
-			</div>
-			</div>
-		</div>
-		</div>
-		
-		<div class="col-lg-3 col-md-6">
-		<div class="card">
-			<div class="card-body">
-			<img src="img/img6.jpg" class="card-img-top" alt="...">
-				<h5 class="card-title"><b>THE INSTITUTE: A NOVEL</b></h5>
-				<p class="card-text">By: Stephen King</p>
-				<p class="card-text">$19.99</p>
-				<span class="fa fa-star c"></span>
-				<span class="fa fa-star"></span>
-				<span class="fa fa-star"></span>
-				<span class="fa fa-star "></span>
-				<span class="fa fa-star "></span>
-		<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
-			</div>
-			</div>
-			</div>
-		</div>
-		</div>
-		
-		<div class="col-lg-3 col-md-6">
-		<div class="card">
-			<div class="card-body">
-			<img src="img/img7.jpg" class="card-img-top" alt="...">
-				<h5 class="card-title"><b>A SPARK OF LIGHT: A NOVEL</b></h5>
-				<p class="card-text">By: Jodi Picoult</p>
-				<p class="card-text">$12.66</p>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star "></span>
-		<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
-			</div>
-			</div>
-			</div>
-		</div>
-		</div>
-		
-		<div class="col-lg-3 col-md-6">
-		<div class="card">
-			<div class="card-body">
-			<img src="img/img8.jpg" class="card-img-top" alt="...">
-				<h5 class="card-title"><b>THE FAMILY UPSTAIRS: A NOVEL</b></h5>
-				<p class="card-text">By: Lisa Jewell</p>
-						<p class="card-text">$14.21</p>
-		
-<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star "></span>
-
-
-		<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
-			</div>
-			</div>
-			</div>
-		</div>
-		</div>
-		<div class="col-lg-3 col-md-6">
-		<div class="card">
-			<div class="card-body">
-			<img src="img/img9.jpg" class="card-img-top" alt="...">
-				<h5 class="card-title"><b>SCOTTY: A HOCKEY LIFE LIKE NO OTHER</b></h5>
-				<p class="card-text">By: Ken Dryden</p>
-				<p class="card-text">$17.49</p>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-			<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
-			</div>
-			</div>
-			</div>
-		</div>
-		</div>
-		<div class="col-lg-3 col-md-6">
-		<div class="card">
-			<div class="card-body">
-			<img src="img/img10.jpg" class="card-img-top" alt="...">
-				<h5 class="card-title"><b>THE GUARDIANS: A NOVEL</b></h5>
-				<p class="card-text">By: John Grisham</p>
-				<p class="card-text">$19.50</p>
-			<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
-			</div>
-			</div>
-			</div>
-		</div>
-		</div>
-		<div class="col-lg-3 col-md-6">
-		<div class="card">
-			<div class="card-body">
-			<img src="img/img11.jpg" class="card-img-top" alt="...">
-				<h5 class="card-title"><b>THE CHRISTMAS PARTY</b></h5>
-				<p class="card-text">By: Karen Swan</p>
-				<p class="card-text">$12.49</p>		
-			<span class="fa fa-star" checked></span>
-			<span class="fa fa-star" checked></span>
-			<span class="fa fa-star" checked></span>
-			<span class="fa fa-star" checked></span>
-			<span class="fa fa-star"></span>
-			<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
-			</div>
-			</div>
-			</div>
-		</div>
-		</div>
-		<div class="col-lg-3 col-md-6">
-		<div class="card">
-			<div class="card-body">
-			<img src="img/img12.jpg" class="card-img-top" alt="...">
-				<h5 class="card-title"><b>THE BODY: A GUIDE FOR OCCUPANTS</b></h5>	
-			<p class="card-text">By: Bill Bryson</p>
-				<p class="card-text">$19.00</p>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-			<span class="fa fa-star"></span>
-			<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
-			</div>
-			</div>
-			</div>
-		</div>
-		</div><div class="col-lg-3 col-md-6">
 		<div class="card">
 			<div class="card-body">
 			<img src="img/img13.jpg" class="card-img-top" alt="...">
@@ -317,8 +283,8 @@
 		<span class="fa fa-star checked"></span>
 		<span class="fa fa-star"></span>
 			<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
 			</div>
 			</div>
 			</div>
@@ -336,8 +302,8 @@
 			<span class="fa fa-star"></span>
 			<span class="fa fa-star"></span>
 			<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
 			</div>
 			</div>
 			</div>
@@ -355,11 +321,30 @@
 		<span class="fa fa-star checked"></span>
 		<span class="fa fa-star"></span>
 			
-			
-			
 			<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="col-lg-3 col-md-6">
+		<div class="card">
+			<div class="card-body">
+			<img src="img/img9.jpg" class="card-img-top" alt="...">
+				<h5 class="card-title"><b>SCOTTY: A HOCKEY LIFE LIKE NO OTHER</b></h5>
+				<p class="card-text">By: Ken Dryden</p>
+				<p class="card-text">$17.49</p>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+			<span class="fa fa-star"></span>
+			<div class="d-flwx flex-row justify-content-center">
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
 			</div>
 			</div>
 			</div>
@@ -379,8 +364,8 @@
 		<span class="fa fa-star checked"></span>
 		<span class="fa fa-star checked"></span>
 			<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
 			</div>
 			</div>
 			</div>
@@ -401,8 +386,8 @@
 			<span class="fa fa-star checked"></span>
 			<span class="fa fa-star checked"></span>
 			<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
 			</div>
 			</div>
 			</div>
@@ -421,8 +406,8 @@
 			<span class="fa fa-star checked"></span>
 			<span class="fa fa-star"></span>
 		<div class="d-flwx flex-row justify-content-center">
-			<div class="p-4">
-				<a href="#" class="btn btn-primary">Add to Cart</a>
+			<div class="p-1">
+					<button type="button" class="coup-button txt">Add to Cart</button>
 			</div>
 			</div>
 			</div>

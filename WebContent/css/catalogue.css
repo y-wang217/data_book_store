@@ -70,6 +70,22 @@ a {
 	text-align: center; 
 }
 
+.sales-text {
+	  font-family: Raleway-Regular;
+  font-size: 13px;
+  color: #555555;
+  line-height: 1.4;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.txt {
+		  font-family: Raleway-Regular;
+  font-size: 20px;
+  color: #555555;
+  line-height: 1.4;
+  text-align: center;
+}
 .footer{
 	background-color: black;
 	color: white;
@@ -90,6 +106,24 @@ a {
   flex-wrap: wrap;
   flex: initial;
   font-family: "Arial", sans-serif;
+}
+
+.card-text {
+  font-family: Raleway-Regular;
+  font-size: 17px;
+  color: #555555;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.card-title {
+	margin-top: 10px;
+	text-align: center;
+	font-family: Raleway-Regular;
+  font-size: 20px;
+  color: #555555;
+  line-height: 1.4;
+  text-align: center;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -140,9 +174,11 @@ color: orange
 
 
 .card-img-top{
-width: 100%;
-height: 30vw;
+width: 50%;
+height: 15vw;
 display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .row.{
@@ -161,14 +197,7 @@ display: block;
 @media (max-width:991px){
     .row.auto-clear .col-xs-6:nth-child(2n+1){clear:left;}
 }
-.btn.btn-primary{
-background-color: #e7e7e7;
-width: 80%; 
-margin: 10px;
-color: black;
-float: left;
-border-color: black;
-}
+
 
 .des-button{
 background-color: #e7e7e7;
@@ -179,25 +208,41 @@ border-color: black;
 border-radius: 5px;
 padding-top: 5px;
 padding-bottom: 5px;
-float: right;
 cursor: pointer;
 }
 
 .coup-button{
-background-color: #e7e7e7;
+background-color: white;
 width: 90%; 
 margin: 10px;
 color: black;
-border-color: black;
+margin-top: -3px;
 border-radius: 5px;
 padding-top: 5px;
 padding-bottom: 5px;
 cursor: pointer;
+  font-family: Raleway-Bold;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 150px;
+  height: 55px;
+  background-color: #333333;
+ border-radius: 10px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
-.custom-padding{
-  padding-top: 25px;
-}
 
 .menu-area li {
   display: inline-block;
@@ -251,3 +296,14 @@ nav:after {
 .nav-item {
 	padding-right: 35px;
 }
+
+
+/**********BUTTON*********************/
+
+
+
+
+.coup-button:hover {
+  background-color: #C2C5CC;
+}
+

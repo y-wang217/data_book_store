@@ -59,15 +59,16 @@
 		<div class="card">
 			<div class="card-body">
 			<img src="img/img1.jpg" class="card-img-top" alt="...">
-				<h5><b>THE DUTCH HOUSE: A NOVEL</b></h5>
-				<p class="card-text">By: Ann Patchett</p>
-				
-				<strike>$15.17</strike> $12.14<br/>
-			
+				<div class="sales-text">
+					<h5><b>THE DUTCH HOUSE: A NOVEL</b></h5>
+					<p class="card-text">By: Ann Patchett</p>
+					
+					<strike>$15.17</strike> $12.14<br/>
+				</div>
 		<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4" >
 			<h2 style="color:red; text-align: center;"> 20% OFF!</h2>
-			<button type="button" class="coup-button">Apply discount</button>
+			<button type="button" class="coup-button txt">Apply Discount</button>
 			
 			<div id="my-modal" class="modal">
 			<div class="modal-content">
@@ -86,15 +87,17 @@
 		<div class="card">
 			<div class="card-body">
 			<img src="img/img2.jpg" class="card-img-top" alt="...">
+				<div class="sales-text">
+			
 				<h5><b>THE TESTAMENTS: A NOVEL</b></h5>
 				<p class="card-text">By: Margaret Atwood</p>
 				
 				<strike>$20.29</strike> $10.15<br/>
-			
+				</div>
 		<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4" >
 			<h2 style="color:red; text-align: center;" > 50% OFF!</h2>
-			<button type="button" class="coup-button">Apply discount</button>
+			<button type="button" class="coup-button txt">Apply Discount</button>
 			
 			<div id="my-modal" class="modal">
 			<div class="modal-content">

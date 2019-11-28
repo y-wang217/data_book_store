@@ -53,26 +53,6 @@
 		<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4" >
 			<a href="#" class="btn btn-primary">Add to Cart</a>
-			<button type="button" id="modal-btn" data-toggle="modal" data-target="#myModal" class="des-button">View Description</button>
-			
-			<div id="my-modal" class="modal">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<span class="close">&times;</span>
-				<h2>Book Description</h2>
-			  </div>
-			  <div class="modal-body">
-				<p>ABOUT</p>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit
-				  repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo
-				  commodi ab.</p>
-			  </div>
-			  <div class="modal-footer">
-				<h3>ISBN: </h3>
-			  </div>
-			</div>
-		  </div>
-			
 			</div>
 			</div>
 			</div>
@@ -94,7 +74,6 @@
 				<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -116,7 +95,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -138,7 +116,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -160,7 +137,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -182,7 +158,6 @@
 		<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -204,7 +179,6 @@
 		<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -229,7 +203,6 @@
 		<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -250,7 +223,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -271,7 +243,6 @@
 		<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -292,7 +263,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -313,7 +283,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -334,7 +303,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -354,7 +322,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -377,7 +344,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -399,7 +365,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -422,7 +387,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -443,7 +407,6 @@
 		<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -464,7 +427,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -487,7 +449,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -509,7 +470,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -530,7 +490,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -553,7 +512,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>
@@ -575,7 +533,6 @@
 			<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4">
 				<a href="#" class="btn btn-primary">Add to Cart</a>
-				<button type="button" class="des-button">View Description</button>
 			</div>
 			</div>
 			</div>

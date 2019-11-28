@@ -52,9 +52,65 @@
 
 	
 <form action = "/Bookstore_Web/Sales">
-	<div>
-	<h1> Coupons</h1>
-	</div>
+
+<h1> Sales </h1>
+<div class="row">
+		<div class="col-lg-3 col-md-6">
+		<div class="card">
+			<div class="card-body">
+			<img src="img/img1.jpg" class="card-img-top" alt="...">
+				<h5><b>THE DUTCH HOUSE: A NOVEL</b></h5>
+				<p class="card-text">By: Ann Patchett</p>
+				
+				<strike>$15.17</strike> $12.14<br/>
+			
+		<div class="d-flwx flex-row justify-content-center">
+			<div class="p-4" >
+			<h2 style="color:red;"> 20% OFF!</h2>
+			<button type="button" id="modal-btn" data-toggle="modal" data-target="#myModal" class="des-button">Apply discount</button>
+			
+			<div id="my-modal" class="modal">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<span class="close">&times;</span>
+			</div>
+		  </div>
+		</div>
+	 </div>
+   </div>
+  </div>
+  </div>
+  </div>
+       
+		<div class="col-lg-3 col-md-6">
+		<div class="card">
+			<div class="card-body">
+			<img src="img/img2.jpg" class="card-img-top" alt="...">
+				<h5><b>THE TESTAMENTS: A NOVEL</b></h5>
+				<p class="card-text">By: Margaret Atwood</p>
+				
+				<strike>$20.29</strike> $10.15<br/>
+			
+		<div class="d-flwx flex-row justify-content-center">
+			<div class="p-4" >
+			<h2 style="color:red;" > 50% OFF!</h2>
+			<button type="button" id="modal-btn" data-toggle="modal" data-target="#myModal" class="des-button">Apply discount</button>
+			
+			<div id="my-modal" class="modal">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<span class="close">&times;</span>
+				
+				</div>
+		  	   </div>
+		      </div>
+		     </div>
+		    </div>
+		  </div>
+        </div>
+       </div>
+      </div>
+  
 </form>
 
 </body>

@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/web.css">
+  <link rel="stylesheet" type="text/css" href="css/catalogue.css">
  </head>
 <body>
 <header>
@@ -53,7 +53,7 @@
 	
 <form action = "/Bookstore_Web/Sales">
 
-<h1> Sales </h1>
+<h1 class = "salestitle"> Sales available</h1>
 <div class="row">
 		<div class="col-lg-3 col-md-6">
 		<div class="card">
@@ -66,8 +66,8 @@
 			
 		<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4" >
-			<h2 style="color:red;"> 20% OFF!</h2>
-			<button type="button" id="modal-btn" data-toggle="modal" data-target="#myModal" class="des-button">Apply discount</button>
+			<h2 style="color:red; text-align: center;"> 20% OFF!</h2>
+			<button type="button" class="coup-button">Apply discount</button>
 			
 			<div id="my-modal" class="modal">
 			<div class="modal-content">
@@ -93,8 +93,8 @@
 			
 		<div class="d-flwx flex-row justify-content-center">
 			<div class="p-4" >
-			<h2 style="color:red;" > 50% OFF!</h2>
-			<button type="button" id="modal-btn" data-toggle="modal" data-target="#myModal" class="des-button">Apply discount</button>
+			<h2 style="color:red; text-align: center;" > 50% OFF!</h2>
+			<button type="button" class="coup-button">Apply discount</button>
 			
 			<div id="my-modal" class="modal">
 			<div class="modal-content">

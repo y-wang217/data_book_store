@@ -539,7 +539,7 @@
 		</div>
 		</div>
 </section>
-<footer> 
+<footer style="color: black"> 
 <!-- Copyright -->
   <div class="footer-copyright text-center py-3" style="margin-top: 15px;">© 2018 Copyright:
     <p> Data Management Systems</p>

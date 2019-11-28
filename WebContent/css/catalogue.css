@@ -1,0 +1,235 @@
+body {
+min-height: 400px;
+margin-bottom: 70px;
+clear: both;
+overflow-x: hidden;
+background-color: white;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url('../fonts/raleway/Raleway-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: url('../fonts/raleway/Raleway-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url('../fonts/raleway/Raleway-SemiBold.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url('../fonts/raleway/Raleway-Bold.ttf'); 
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: Raleway-Regular, sans-serif;
+}
+
+/*---------------------------------------------*/
+a {
+	font-family: Raleway-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+.header{
+	background-color: black; 
+	padding: 30px; 
+	text-align: center; 
+	font-size: 35px; 
+	color: white"
+}
+
+.footer{
+	background-color: black;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	display: block;  
+	left: 0; 
+	width: 100%; 
+	height: 8%; 	
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 15px 15px 15px 15px;
+  background-color: white;
+  flex-wrap: wrap;
+  flex: initial;
+  font-family: "Arial", sans-serif;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-body {
+  padding: 2px 16px;
+  top-margin: 10px;
+  bottom-margin: 10px;
+}
+search_icon{
+float:right;
+margin-top: 55px;
+margin-left: 500px;
+}
+
+@media (min-width: 576px) {
+        .card-body .card {
+            min-width: 50.1%; /* 1 Column */
+            margin-bottom: 12px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .card-body .card {
+            min-width: 33.4%;  /* 2 Columns */
+        }
+    }
+
+    @media (min-width: 992px) {
+        .card-body .card {
+            min-width: 25.1%;  /* 3 Columns */
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .card-body .card {
+            min-width: 20.1%;  /* 4 Columns */
+        }
+    }
+
+.checked{
+color: orange
+}
+
+
+.card-img-top{
+width: 100%;
+height: 30vw;
+display: block;
+}
+
+.row.{
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width:992px){
+    .row.auto-clear .col-md-4:nth-child(3n+1){clear:left;}
+}
+
+@media (max-width:991px){
+    .row.auto-clear .col-xs-6:nth-child(2n+1){clear:left;}
+}
+.btn.btn-primary{
+background-color: #e7e7e7;
+width: 80%; 
+margin: 10px;
+color: black;
+float: left;
+border-color: black;
+}
+
+.des-button{
+background-color: #e7e7e7;
+width: 40%; 
+margin: 10px;
+color: black;
+border-color: black;
+border-radius: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+float: right;
+cursor: pointer;
+}
+
+.custom-padding{
+  padding-top: 25px;
+}
+
+.menu-area li {
+  display: inline-block;
+}
+
+.menu-area a {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 25px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+}
+.menu-area a:hover {
+  background: orange;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.menu-area a:hover:after {
+  transform: translateY(-50%) rotate(-35deg);
+}
+
+nav:before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+}
+
+nav:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  right: 0;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nav-item {
+	padding-right: 35px;
+}

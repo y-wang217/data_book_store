@@ -584,7 +584,7 @@
 </section>
 <footer> 
 <!-- Copyright -->
-  <div class="footer-copyright text-center py-3" style="margin-top: 15px;">Â© 2018 Copyright:
+  <div class="footer-copyright text-center py-3" style="margin-top: 15px;">© 2018 Copyright:
     <p> Data Management Systems</p>
   </div>
   <!-- Copyright -->

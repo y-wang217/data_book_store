@@ -53,7 +53,7 @@
 	
 <form action = "/Bookstore_Web/Sales">
 
-<h1 class = "salestitle"> Sales available</h1>
+<h1 class = "salestitle"> Sales</h1>
 <div class="row">
 		<div class="col-lg-3 col-md-6">
 		<div class="card">

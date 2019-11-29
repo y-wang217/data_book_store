@@ -65,9 +65,20 @@ a {
 }
 
 .salestitle{
-	font-family:Raleway-Regular;
-	padding: 30px; 
-	text-align: center; 
+  font-family: Raleway-Medium;
+  font-size: 30px;
+  color: #555555;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+
+  width: 100%;
+  display: block; 	
+  
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-top: 55px;
+  padding-bottom: 55px;	
 }
 
 .sales-text {
@@ -80,7 +91,7 @@ a {
 }
 
 .txt {
-		  font-family: Raleway-Regular;
+font-family: Raleway-Regular;
   font-size: 20px;
   color: #555555;
   line-height: 1.4;
@@ -307,3 +318,19 @@ nav:after {
   background-color: #C2C5CC;
 }
 
+.catalogue-title {
+  font-family: Raleway-Medium;
+  font-size: 30px;
+  color: #555555;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+
+  width: 100%;
+  display: block; 	
+  
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}

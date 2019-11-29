@@ -49,10 +49,32 @@
 	</nav>
 </header>
 
-
+	<div class="catalogue-title">Catalogue</div>
 <section id="books">
-
+	
 	<div class="row">
+		
+		<div class="col-lg-3 col-md-6">
+		<div class="card">
+			<div class="card-body">
+			<img src="img/img1.jpg" class="card-img-top" alt="...">
+				<h5 class="card-title"><b>THE DUTCH HOUSE: A NOVEL</b></h5>
+				<p class="card-text">By: Ann Patchett</p>
+				<p class="card-text">$15.17</p>
+		
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		<div class="d-flwx flex-row justify-content-center">
+			<div class="p-1">
+					<button type="button" class="coup-button">Add to Cart</button>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
 		
 		<div class="col-lg-3 col-md-6">
 		<div class="card">
@@ -80,9 +102,8 @@
 				<p class="card-text">$19.99</p>
 
 		<div class="d-flwx flex-row">
-			<div class="p-1">
-					<button type="button" class="coup-button txt">Add to Cart</button>
-			</div>
+			<div class="p-1 cbutton">
+					<button type="button" class="coup-button txt">Add to Cart</button>			</div>
 			</div>
 			</div>
 		</div>
@@ -184,27 +205,7 @@
 		</div>
 		</div>
 		
-		<div class="col-lg-3 col-md-6">
-		<div class="card">
-			<div class="card-body">
-			<img src="img/img1.jpg" class="card-img-top" alt="...">
-				<h5><b>THE DUTCH HOUSE: A NOVEL</b></h5>
-				<p class="card-text">By: Ann Patchett</p>
-				<p class="card-text">$15.17</p>
 		
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star"></span>
-		<div class="d-flwx flex-row justify-content-center">
-			<div class="p-1">
-					<button type="button" class="coup-button txt">Add to Cart</button>
-			</div>
-			</div>
-			</div>
-		</div>
-		</div>
 			
 		<div class="col-lg-3 col-md-6">
 		<div class="card">

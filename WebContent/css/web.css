@@ -3208,3 +3208,20 @@ iframe {
 .nav-item {
 	padding-right: 35px;
 }
+
+
+/***************************Orders***************************/
+
+.purchase-border {
+	font-family: Raleway-Medium;
+  font-size: 30px;
+  color: #555555;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: left;
+
+  width: 100%;
+  display: block;
+  margin: 75px;
+  margin-top: 50px;
+}

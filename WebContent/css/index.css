@@ -13,7 +13,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'Raleway-Regular';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -53,7 +53,7 @@
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: 'Raleway-Regular';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
@@ -130,7 +130,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+  font-family: 'Raleway-Regular';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -148,7 +148,7 @@
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: 'Raleway-Regular';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -188,6 +188,8 @@ body {
 
 a {
   color: #64a19d;
+  font-size: 14px;
+  
 }
 
 a:focus, a:hover {
@@ -209,4 +211,37 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+body, html {
+	height: 100%;
+	font-family: Raleway-Regular, sans-serif;
+}
+
+.nav-item {
+	padding-right: 35px;
+}
+
+h2 {
+	  padding-top: 15px;
+	
+}
+@font-face {
+  font-family: Raleway-Regular;
+  src: url('../fonts/raleway/Raleway-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: url('../fonts/raleway/Raleway-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url('../fonts/raleway/Raleway-SemiBold.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url('../fonts/raleway/Raleway-Bold.ttf'); 
 }

@@ -3,21 +3,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
   <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
  
 
-  <title>Home</title>
 
-  <!-- Bootstrap core CSS -->
   <link href="css/index.css" rel="stylesheet">
-
-  <!-- fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-  
-
 </head>
 
 <body id="page-top">
@@ -67,7 +61,7 @@
       <div class="mx-auto text-center">
        <img class="img-fluid mb-3 mb-lg-0" src="desktop/home.jpg" alt="">
         <h1 class="mx-auto my-0 text-uppercase" >Sensei Yale's</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">Collection of Goodies</h2>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Bookstore</h2>
         <a href="catalogue.jsp" class="btn btn-primary js-scroll-trigger">Shop</a>
       </div>
     </div>

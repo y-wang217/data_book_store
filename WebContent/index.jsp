@@ -3,16 +3,28 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>index</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
   <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/web.css">
- </head>
-<body>
-<header>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+ 
+
+  <title>Home</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/index.css" rel="stylesheet">
+
+  <!-- fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+
 	  <a class="navbar-brand">Sensei Yale's Collection of Goodies</a>
 	  
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -46,21 +58,38 @@
 	    </ul>
 
 	  </div>
-	</nav>
+	  
+	  </nav>
 
-</header>
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+       <img class="img-fluid mb-3 mb-lg-0" src="desktop/home.jpg" alt="">
+        <h1 class="mx-auto my-0 text-uppercase" >Sensei Yale's</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Collection of Goodies</h2>
+        <a href="catalogue.jsp" class="btn btn-primary js-scroll-trigger">Shop</a>
+      </div>
+    </div>
+  </header>
 
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; Your Website 2019
+    </div>
+  </footer>
 
-	<form action="/Bookstore_Web/app">
-		<div>
-			<label for="name">Stuff</label> <input name="name" id="name"
-				value="Debra">
-		</div>
-		<div>
-			<button>Send</button>
-		</div>
-	</form>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+ 
 </body>
 
 </html>
